@@ -1,0 +1,14 @@
+# Required libraries to run AskDemon
+
+streamlit        # Frontend interface for chatbot and train tracker
+openai           # GPT-4o-mini integration for DePaul chatbot
+python-dotenv    # Loads API keys securely from .env file
+requests         # For calling the CTA Train Tracker API
+
+#pip install faiss-cpu
+# pip install lxml
+# pip install beautifulsoup4 requests
+# To install everything, run:
+# pip install -r requirements.txt
+
+#Requirements needs work

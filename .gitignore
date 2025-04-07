@@ -1,0 +1,24 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore API keys
+.env
+
+# Ignore Streamlit generated folders
+.streamlit/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+#Test files
+test_ask.py
+scraped_output.txt
+chunks/
+embeddings.json
+# Ignore log files
