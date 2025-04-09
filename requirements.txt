@@ -10,5 +10,5 @@ requests         # For calling the CTA Train Tracker API
 # pip install beautifulsoup4 requests
 # To install everything, run:
 # pip install -r requirements.txt
-
+# streamlit run app.py
 #Requirements needs work
