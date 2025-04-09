@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
-from cta import STATION_OPTIONS, get_train_arrivals, LINE_COLORS
-from ai import ask_demon
+from services.cta import STATION_OPTIONS, get_train_arrivals, LINE_COLORS
+from services.ai import ask_demon
 import os
 
 # --- PAGE CONFIG ---
@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # --- LOGO + HEADER ---
-with open("depaul_logo.png", "rb") as f:
+with open("assets/depaul_logo.png", "rb") as f:
     img_data = base64.b64encode(f.read()).decode()
 
 st.markdown(
