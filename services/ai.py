@@ -1,4 +1,4 @@
-from search import search
+from backend.search import search
 import openai
 import os
 
