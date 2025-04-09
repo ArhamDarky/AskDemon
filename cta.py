@@ -25,16 +25,15 @@ STATION_OPTIONS = {
     "95th/Dan Ryan (Red)": "40450"
 }
 
-# --- CTA Line Colors ---
 LINE_COLORS = {
-    "Red": "#A52A2A",       # muted red
-    "Blue": "#4682B4",      # steel blue
-    "Brn": "#8B5E3C",     # lighter brown
-    "G": "#3CB371",     # medium sea green
-    "Org": "#D2691E",    # chocolate orange
-    "Pink": "#D597AE",      # softer pink
-    "Purple": "#7B68EE",    # medium slate purple
-    "Yellow": "#E0C94F"     # softer yellow
+    "Red": "#C0392B",       # Medium-dark red
+    "Blue": "#3B5998",      # Medium navy-blue
+    "Brn": "#6E4B3A",       # Medium-dark earthy brown
+    "G": "#6BAE75",         # Muted leafy green
+    "Org": "#E08E45",       # Soft, light but grounded orange
+    "Pink": "#D28A94",         # Medium-light rose pink
+    "Purple": "#5E4A82",    # Muted medium-dark purple
+    "Yellow": "#D6B84B"     # Soft golden yellow
 }
 
 # --- Get Train Arrivals ---
@@ -72,3 +71,5 @@ def get_train_arrivals(stop_id, line_code=None):
 
     except Exception as e:
         return [{"destination": "Error", "arrival_time": str(e), "line": "—"}]
+
+#Update the function to handle errors more gracefully
